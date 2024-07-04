@@ -1,0 +1,28 @@
+:root {
+    --white: #fff;
+    --black: ##252432;
+    --text-black: #252432;
+    --blue: #4E47FF;
+    --gray: #8987A1;
+    --light-gray: #D6DDED;
+    --lightest-gray: #E4EAF8;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    color: var(--black);
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleapo Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="nav_left ">
+            <a href="#">
+                <figure>
+                    <img src="assets/images/Logo.png" alt="">
+                </figure>
+            </a>
+        </div>
+        <nav class="nav_center top_nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">How it Works</a>
+            <a href="#">Services</a>
+        </nav>
+
+        <div class="nav_right">
+            <a class="sign_in_btn" href="#">Sign In</a>
+            <a class="sign_up_btn" href="#">Sign Up</a>
+        </div>
+
+        <div class="burger_nav">
+            <img src="assets/images/burger_nav.png" alt="" height="40px" id="mobileNavTrigger">
+        </div>
+        <div class="mobile_nav" id="mobile_nav_container">
+            <ul class="mobile_nav_list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="top_section">
+            <div class="top_title_container">
+                <h2 class="top_title">Awesome UI Dark Template for Webflow Agency</h2>
+                <button>Get In Touch</button>
+            </div>
+            <div class="wwd_container">
+                <h2 class="section_heading">What We do</h2>
+                <ul class="wwd_list">
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/WebDesign.svg" alt="">
+                            </figure>
+                            <h3>Web Design</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and
+                                engage your audience.</p>
+                        </div>
+                    </li>
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/uiux.svg" alt="">
+                            </figure>
+                            <h3>UI/UX Design</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and engage your audience.</p>
+                        </div>
+                    </li>
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/responsive.svg" alt="">
+                            </figure>
+                            <h3>Responsive Design</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and engage your audience..</p>
+                        </div>
+                    </li>
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/e-commerce.svg" alt="">
+                            </figure>
+                            <h3>E-commerce Solutions:</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and engage your audience..</p>
+                        </div>
+                        <figure>
+                            <img src="./assets/images/e-commerce.png" alt="" height="257">
+                        </figure>
+                    </li>
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/webflow.svg" alt="">
+                            </figure>
+                            <h3>Webflow</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and
+                                engage your audience.</p>
+                        </div>
+                        <span>
+                            <figure>
+                                <img src="./assets/images/webflow.png" alt="">
+                            </figure>
+                        </span>
+
+                    </li>
+                    <li class="wwd_list_item">
+                        <div>
+                            <figure>
+                                <img src="./assets/icons/custom.svg" alt="">
+                            </figure>
+                            <h3>Custom Development</h3>
+                            <p>From concept to launch, we create stunning, user-centric websites that elevate your brand
+                                and
+                                engage your audience.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <section class="work_section ">
+        <div class="work_head ">
+            <h2 class="section_heading">Check our Work</h2>
+            <p>Take a look at some of our recent projects to see how we've helped businesses like yours succeed
+                online.</p>
+            <div class="carousel_nav_section">
+                <button id="carouselPrevBtn" class="left carousel_nav">
+                    <img src="assets/icons/left_arrow.svg" alt="">
+                </button>
+                <button id="carouselNextBtn" class="right carousel_nav">
+                    <img src="assets/icons/right_arrow.svg" alt="">
+                </button>
+            </div>
+
+        </div>
+        <div class="carousel_container" id="carousel_container">
+            <div class="carousel_item_container" id="carousel_item_container">
+                <div class="carousel_item">
+                    <figure>
+                        <img src="assets/images/carousel_img1.png" alt="">
+                    </figure>
+                </div>
+                <div class="carousel_item active">
+                    <figure>
+                        <img src="assets/images/carousel_img2.png" alt="">
+                    </figure>
+                </div>
+                <div class="carousel_item">
+                    <figure>
+                        <img src="assets/images/carousel_img3.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews_container">
+            <div class="review_img_section">
+                <img src="assets/icons/review_images.svg" alt="">
+            </div>
+            <div class="reviews">
+                <div><span>5.0</span> Based On <span>145</span> Reviews</div>
+                <div class="stars_box">
+                    <img src="assets/icons/star_yellow.svg" alt="">
+                    <img src="assets/icons/star_yellow.svg" alt="">
+                    <img src="assets/icons/star_yellow.svg" alt="">
+                    <img src="assets/icons/star_yellow.svg" alt="">
+                    <img src="assets/icons/star_yellow.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="container">
+        <section class="pricing_section">
+            <div class="pricing_left">
+                <div class="top">
+                    <h2 class="section_heading">Pricing</h2>
+                    <p>Take a look at some of our recent projects to see how we've helped businesses like yours succeed
+                        online.</p>
+                </div>
+                <div class="bottom">
+                    <h3>Let's Schedule a Meeting</h3>
+                    <button>Schedule Meeting</button>
+                </div>
+            </div>
+            <div class="pricing_right">
+                <h3>Unlimited Services</h3>
+                <p>Take a look at some of our recent projects to see how we've helped businesses like yours succeed
+                    online.</p>
+
+                <ul class="pricing_list">
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                    <li><img src="assets/icons/tick_circle.svg" alt=""><span>Unlimited requests</span></li>
+                </ul>
+                <div>
+                    <div>
+                        <span>$3,250</span>
+                        <span>/mo</span>
+                    </div>
+                    <button>
+                        <img src="assets/icons/right_arrow.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq_section">
+            <div class="faq_left">
+                <h2 class="section_heading">Frequently Asked Questions</h2>
+                <img src="assets/icons/faq_bg.svg" alt="">
+            </div>
+            <div class="faq_right">
+                <div class="accordian_parent">
+                    <div class="accordian_trigger"><span> How can I contact Inkyy Team?</span>
+                        <button class="accordian_trigger_btn"><img src="assets/images/minus.png" alt=""></button>
+                    </div>
+                    <p id="0_acrdn_drawer" class="hidden_content active">You can reach us through our contact form on
+                        our
+                        website or by emailing us
+                        at <span>hello@inkyy.com</span> We
+                        typically respond
+                        within 24 hours.</p>
+                </div>
+                <div class="accordian_parent">
+                    <div class="accordian_trigger"><span>What services do you offer?</span>
+                        <button class="accordian_trigger_btn"><img src="assets/images/plus.png" alt=""></button>
+                    </div>
+                    <p id="1_acrdn_drawer" class="hidden_content">You can reach us through our contact form on our
+                        website or by emailing us
+                        at <span>hello@inkyy.com</span> We
+                        typically respond
+                        within 24 hours.</p>
+                </div>
+                <div class="accordian_parent">
+                    <div class="accordian_trigger"><span> Do you provide website maintenance services?</span>
+                        <button class="accordian_trigger_btn"><img src="assets/images/plus.png" alt=""></button>
+                    </div>
+                    <p id="2_acrdn_drawer" class="hidden_content">You can reach us through our contact form on our
+                        website or by emailing us
+                        at <span>hello@inkyy.com</span> We
+                        typically respond
+                        within 24 hours.</p>
+                </div>
+                <div class="accordian_parent">
+                    <div class="accordian_trigger"><span> How long does it take to design and develop a website?</span>
+                        <button class="accordian_trigger_btn"><img src="assets/images/plus.png" alt=""></button>
+                    </div>
+                    <p id="3_acrdn_drawer" class="hidden_content">You can reach us through our contact form on our
+                        website or by emailing us
+                        at <span>hello@inkyy.com</span> We
+                        typically respond
+                        within 24 hours.</p>
+                </div>
+                <div class="accordian_parent">
+                    <div class="accordian_trigger"><span>Do you require a deposit for projects?</span>
+                        <button class="accordian_trigger_btn"><img src="assets/images/plus.png" alt=""></button>
+                    </div>
+                    <p id="4_acrdn_drawer" class="hidden_content">You can reach us through our contact form on our
+                        website or by emailing us
+                        at <span>hello@inkyy.com</span> We
+                        typically respond
+                        within 24 hours.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container footer">
+        <section class="contact_section">
+            <img src="assets/images/footer_topright_bg.png" class="bgicon footer_topright_bgicon" alt="">
+            <img src="assets/images/footer_leftbg.png" class="bgicon footer_bottomleft_bgicon" alt="">
+            <h2 class="section_heading">Let's Get in Touch</h2>
+            <div class="contact_form_container">
+                <form action="" class="contact_form">
+                    <div>
+                        <label for="user_email_input">email</label>
+                        <input id="user_email_input" type="email" placeholder="example@email.com">
+                    </div>
+                    <div>
+                        <label for="user_name_input">name</label>
+                        <input id="user_name_input" type="text" placeholder="full name">
+                    </div>
+                    <div>
+                        <label for="user_message_input">message</label>
+                        <textarea name="" id="user_message_input" placeholder="write your message...."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Get in Touch">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="footer_container">
+            <div class="left_footer">
+                <figure>
+                    <img src="assets/images/Logo.png" alt="">
+                </figure>
+                <p>Ready to elevate your online presence? <br> Contact us today to discuss your project and discover how
+                    we can bring your vision to life.</p>
+                <div>
+                    <img src="assets/icons/heart.svg" alt="">
+                    <span>Made with love powered by inkyy.com</span>
+                </div>
+            </div>
+            <div class="right_footer">
+                <nav class="nav_center bottom_nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">How it Works</a>
+                    <a href="#">Services</a>
+                </nav>
+                <ul class="social_media_list">
+                    <li>
+                        <a href="">
+                            <img src="assets/images/insta_logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="assets/images/linkedIn_logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="assets/images/tiktok_logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="assets/images/basketBall_logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="./index.js"></script>
