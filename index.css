@@ -133,8 +133,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     height: 100%;
-
 }
 
 
@@ -158,7 +158,6 @@ header {
     border-radius: 0.3125rem;
     height: 13.375rem;
     width: 13.625rem;
-
 }
 
 .wwd_list_item>div {
@@ -192,7 +191,7 @@ header {
 .work_section {
     margin-top: 8.125rem;
     max-width: 90rem;
-    width: 100vw;
+    width: 100%;
     margin: auto;
 
 }
@@ -249,6 +248,7 @@ header {
     display: flex;
     position: relative;
     overflow: hidden;
+    height: 37.5rem;
 }
 
 .carousel_item_container {
@@ -267,7 +267,7 @@ header {
     place-items: center;
 }
 
-.carousel_item>figure>image {
+.carousel_item>figure>img {
     height: 34.4375rem;
 }
 
@@ -512,6 +512,23 @@ header {
     padding-bottom: 7rem;
 }
 
+.bottom_nav {
+    display: flex;
+    height: 4.25rem;
+    width: 31.1875rem;
+    gap: 3rem;
+    padding: 1.375rem 2.8125rem;
+    border-radius: 1.25rem;
+    background: var(--white);
+    color: var(--gray);
+    align-items: center;
+}
+
+.bottom_nav>a {
+    color: var(--gray);
+    text-wrap: nowrap;
+}
+
 .bgicon {
     position: absolute;
 }
@@ -577,7 +594,7 @@ header {
     height: 4.375rem;
     border: 1px solid var(--light-gray);
     border-radius: 0.625rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 1.25rem 2rem;
 }
 
@@ -684,7 +701,7 @@ header {
     }
 
     header {
-        max-width: 100vw;
+        max-width: 100%;
         width: 100%;
         padding: 1rem;
 
@@ -730,7 +747,7 @@ header {
     }
 
     header {
-        max-width: 100vw;
+        max-width: 100%;
         width: 100%;
         padding: 1rem;
         background: rgba(255, 255, 255, 0.11);
@@ -797,6 +814,22 @@ header {
         font-size: 12px;
     }
 
+    .bgicon {
+        display: none;
+    }
+
+    .faq_left>img {
+        display: none;
+    }
+
+    .top_title_container {
+        width: 100%;
+    }
+
+    .top_title {
+        font-size: 2.5rem;
+    }
+
     .pricing_section {
         flex-direction: column;
         padding: 1rem;
@@ -834,6 +867,14 @@ header {
 
     .section_heading {
         font-size: 2.5rem;
+    }
+
+    .work_head {
+        padding: 1rem;
+    }
+
+    .carousel_nav_section {
+        padding: 0px 9.375rem;
     }
 
     .wwd_list {
@@ -889,5 +930,66 @@ header {
         padding: 2rem;
     }
 
+    .pricing_left .bottom {
+        margin-top: 0rem;
+        padding-left: 0rem;
+        margin-bottom: 2rem;
+    }
 
+    .contact_form_container {
+        padding: 1.5rem;
+    }
+
+    .contact_section {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .wwd_list {
+        gap: 1rem;
+    }
+
+    .carousel_container {
+        height: 28rem;
+    }
+
+    .carousel_item>figure>img {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel_nav_section {
+        padding: 1px;
+    }
+
+    .pricing_left .bottom h3 {
+        width: 100%;
+    }
+
+    .bottom_nav {
+        font-size: 1rem;
+        gap: 1rem;
+        min-width: 100%;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .wwd_list_item:nth-child(4)>figure>img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .wwd_list_item:nth-child(5)>span>figure {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .carousel_container {
+        height: 22rem;
+    }
+
+    .carousel_item>figure>img {
+        height: 18rem;
+    }
 }

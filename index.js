@@ -6,7 +6,7 @@ const carouselNext = document.getElementById('carouselNextBtn');
 let activeCarouselItem = 1;
 
 const carouselContainerWidth = carouselContainer?.clientWidth;
-const carouselItemWidth = carouselItem[1].clientWidth;
+const carouselItemWidth = carouselItem[1]?.clientWidth;
 const remainingwidth = parseInt((carouselContainerWidth - carouselItemWidth) / 2);
 let toMove = carouselItemWidth - remainingwidth;
 
@@ -80,11 +80,7 @@ function handleAccordianOpen(e, index) {
             drawer.style.display = 'none';
             image.src = 'assets/images/plus.png';
         }
-
-        // console.log(element);
-
     }
-    console.log(activeAccordian);
 
 }
 
